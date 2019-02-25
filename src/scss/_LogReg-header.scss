@@ -1,0 +1,24 @@
+#top{
+    position: relative;
+    width: 1440px;
+    height: 90px;
+    border-bottom: 1px solid #eee;    
+    margin: 0 auto;
+    .top-logo img{
+        margin-top:30px;
+        margin-left: 15px;
+        width:162px;
+        height: 47px;
+    }
+    ul{
+        position: absolute;
+        top: 59px;
+        right: 45px;
+        font-size: 14px;
+        color: #a4a4a4;
+        li{
+            float: left;
+            padding:0 7px ;
+        }
+    }
+}

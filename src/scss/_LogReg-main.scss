@@ -1,0 +1,118 @@
+#main{
+    height: 483px;
+    background-image: url(https://i1.letvimg.com/lc07_img/201607/29/15/13/operatbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:12px 40px 0;    
+    //登录表单盒子
+    .from-box{
+        width: 430px;
+        height: 460px;
+        background: #fff;
+        float: right;        
+        margin-right: 10px;
+        position: relative;
+        .from-box-min{           
+            width: 380px;
+            height:400px ; 
+            margin: 23px 25px 0;
+            .from-box-top{
+                height: 40px;                
+                span{
+                    float: left;
+                    color: #333;
+                    font-size: 18px;
+                }
+                a{
+                    float: right;
+                    font-size: 14px;
+                    color:#529bef;
+                }
+            }
+            .from-box-main1 li{
+                height: 42px;
+                display: block;
+                position: relative;
+                font-size: 14px;
+                overflow: hidden;
+                border: 1px solid #ccc;
+                padding-bottom: 0;
+                input{
+                   left: 45px;
+                   height: 23px;
+                   line-height: 23px;
+                   border: none;
+                   color: #333;
+                   background: 0 0!important;
+                   position: absolute;
+                   padding: 9px 0 10px;
+                   top: 0;
+                   width: 270px;
+                   outline: none;
+               }
+            }
+            .from-box-main1 li:nth-of-type(1){
+                margin-bottom: 15px;
+            }
+            .from-box-main2 li{
+                @include clearfix;
+                height: 42px;
+                line-height: 42px;
+                display: block;
+                position: relative;
+                font-size: 14px;
+                overflow: hidden;
+                .rem_pass{                  
+                    @include clearfix;
+                    float: left;
+                    input{
+                        margin-top:10px;
+                        height: 23px;
+                        line-height: 23px;                       
+                        border: none;
+                        color: #333;
+                        float: left;
+                    }
+                    span{
+                        display: inline-block;
+                        margin-top: 0px;
+                        float: left;
+                        margin-left: 5px;
+                    }
+                }
+                .reset{
+                    display: inline-block;
+                    float: right;
+                    color:#529bef;
+
+                }
+                .regi_btn{
+                    display: inline-block;
+                    width: 376px;
+                    height: 38px;
+                    line-height: 38px;
+                    border: 2px solid #009de6;
+                    background: #009de6;
+                    color: #fff;
+                    font-size: 18px;
+                    text-align: center;
+                }
+                
+                
+            }
+            .form-box-bottom{
+                position: absolute;
+                width: 381px;
+                margin-left: 23px;
+                bottom: 67px;
+                color: #969696;
+                font-size: 16px;
+                a{
+                    color: #529bef;
+                    
+                }
+            }
+        }
+    }
+}
+

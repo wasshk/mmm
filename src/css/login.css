@@ -1,0 +1,176 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+#top {
+  position: relative;
+  width: 1440px;
+  height: 90px;
+  border-bottom: 1px solid #eee;
+  margin: 0 auto;
+}
+#top .top-logo img {
+  margin-top: 30px;
+  margin-left: 15px;
+  width: 162px;
+  height: 47px;
+}
+#top ul {
+  position: absolute;
+  top: 59px;
+  right: 45px;
+  font-size: 14px;
+  color: #a4a4a4;
+}
+#top ul li {
+  float: left;
+  padding: 0 7px;
+}
+
+#main {
+  height: 483px;
+  background-image: url(https://i1.letvimg.com/lc07_img/201607/29/15/13/operatbg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 12px 40px 0;
+}
+#main .from-box {
+  width: 430px;
+  height: 460px;
+  background: #fff;
+  float: right;
+  margin-right: 10px;
+  position: relative;
+}
+#main .from-box .from-box-min {
+  width: 380px;
+  height: 400px;
+  margin: 23px 25px 0;
+}
+#main .from-box .from-box-min .from-box-top {
+  height: 40px;
+}
+#main .from-box .from-box-min .from-box-top span {
+  float: left;
+  color: #333;
+  font-size: 18px;
+}
+#main .from-box .from-box-min .from-box-top a {
+  float: right;
+  font-size: 14px;
+  color: #529bef;
+}
+#main .from-box .from-box-min .from-box-main1 li {
+  height: 42px;
+  display: block;
+  position: relative;
+  font-size: 14px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  padding-bottom: 0;
+}
+#main .from-box .from-box-min .from-box-main1 li input {
+  left: 45px;
+  height: 23px;
+  line-height: 23px;
+  border: none;
+  color: #333;
+  background: 0 0 !important;
+  position: absolute;
+  padding: 9px 0 10px;
+  top: 0;
+  width: 270px;
+  outline: none;
+}
+#main .from-box .from-box-min .from-box-main1 li:nth-of-type(1) {
+  margin-bottom: 15px;
+}
+#main .from-box .from-box-min .from-box-main2 li {
+  *height: 1%;
+  height: 42px;
+  line-height: 42px;
+  display: block;
+  position: relative;
+  font-size: 14px;
+  overflow: hidden;
+}
+#main .from-box .from-box-min .from-box-main2 li:after {
+  clear: both;
+  content: '.';
+  display: block;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+#main .from-box .from-box-min .from-box-main2 li .rem_pass {
+  *height: 1%;
+  float: left;
+}
+#main .from-box .from-box-min .from-box-main2 li .rem_pass:after {
+  clear: both;
+  content: '.';
+  display: block;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+#main .from-box .from-box-min .from-box-main2 li .rem_pass input {
+  margin-top: 10px;
+  height: 23px;
+  line-height: 23px;
+  border: none;
+  color: #333;
+  float: left;
+}
+#main .from-box .from-box-min .from-box-main2 li .rem_pass span {
+  display: inline-block;
+  margin-top: 0px;
+  float: left;
+  margin-left: 5px;
+}
+#main .from-box .from-box-min .from-box-main2 li .reset {
+  display: inline-block;
+  float: right;
+  color: #529bef;
+}
+#main .from-box .from-box-min .from-box-main2 li .regi_btn {
+  display: inline-block;
+  width: 376px;
+  height: 38px;
+  line-height: 38px;
+  border: 2px solid #009de6;
+  background: #009de6;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+#main .from-box .from-box-min .form-box-bottom {
+  position: absolute;
+  width: 381px;
+  margin-left: 23px;
+  bottom: 67px;
+  color: #969696;
+  font-size: 16px;
+}
+#main .from-box .from-box-min .form-box-bottom a {
+  color: #529bef;
+}
+
+/*# sourceMappingURL=login.css.map */
